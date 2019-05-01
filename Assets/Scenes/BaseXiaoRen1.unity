@@ -1439,6 +1439,7 @@ MonoBehaviour:
   NoGoingBackThreshold: 5
   NoGoingBackMinDistanceFromBounds: 10
   OneWayLevelKillMode: 0
+  NestScene: BaseXiaoRen2
 --- !u!1001 &224892100
 PrefabInstance:
   m_ObjectHideFlags: 0

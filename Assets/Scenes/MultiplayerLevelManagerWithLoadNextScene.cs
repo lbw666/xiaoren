@@ -9,8 +9,8 @@ namespace MoreMountains.CorgiEngine
 {
     public class MultiplayerLevelManagerWithLoadNextScene : MultiplayerLevelManager
     {
-        
-        
+
+        public string NestScene;
         protected override IEnumerator MultiplayerEndGame(string winnerID)
         {
             // we wait for 1 second
@@ -37,7 +37,8 @@ namespace MoreMountains.CorgiEngine
             // we wait for 2 seconds
             yield return new WaitForSeconds(2f);
             // we reload the current scene to start a new game
-            LoadingSceneManager.LoadScene("BaseXiaoRen");
+            if(!String.IsNullOrEmpty(NestScene))
+            LoadingSceneManager.LoadScene(NestScene);
         }
     }
 }

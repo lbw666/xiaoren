@@ -182,4 +182,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BaseXiaoRen.unity
     guid: 0d1fcc70efc94af4cb6cfe5ce0c95310
+  - enabled: 1
+    path: Assets/Scenes/BaseXiaoRen2.unity
+    guid: 728074d8d776f604aaaca8b02a15e9e2
   m_configObjects: {}
