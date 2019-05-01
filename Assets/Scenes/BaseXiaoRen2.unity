@@ -4601,7 +4601,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.33823532, g: 0.33823532, b: 0.33823532, a: 1}
+  m_BackGroundColor: {r: 0.83921576, g: 0.53333336, b: 0.23529413, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -6811,47 +6811,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1295553520
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1858949006}
-    m_Modifications:
-    - target: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -69.07001
-      objectReference: {fileID: 0}
-    - target: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -14.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 569555e0580bd47e89fa938039586156, type: 3}
 --- !u!1001 &1308851223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9557,7 +9516,6 @@ Transform:
   - {fileID: 1404893004}
   - {fileID: 1457607109}
   - {fileID: 1956234464}
-  - {fileID: 2146666772}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10579,10 +10537,4 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3402709563bc5ee40b4a857decc2dfc7,
     type: 3}
   m_PrefabInstance: {fileID: 1514286116}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2146666772 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 426666, guid: 569555e0580bd47e89fa938039586156,
-    type: 3}
-  m_PrefabInstance: {fileID: 1295553520}
   m_PrefabAsset: {fileID: 0}

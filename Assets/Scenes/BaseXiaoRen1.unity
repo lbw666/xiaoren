@@ -3303,53 +3303,6 @@ MonoBehaviour:
   AutoUpdating: 0
   BarProgress: 0
   TestBumpButton: 0
---- !u!1001 &514833955
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1858949006}
-    m_Modifications:
-    - target: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -32.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -9.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c59f3caa80b41437da560af3e12b97e2, type: 3}
---- !u!4 &514833956 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 450608, guid: c59f3caa80b41437da560af3e12b97e2,
-    type: 3}
-  m_PrefabInstance: {fileID: 514833955}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &517236335
 GameObject:
   m_ObjectHideFlags: 0
@@ -4611,7 +4564,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.33823532, g: 0.33823532, b: 0.33823532, a: 1}
+  m_BackGroundColor: {r: 0.07058824, g: 0.07058824, b: 0.07058824, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -7361,7 +7314,7 @@ Transform:
   - {fileID: 560553113}
   - {fileID: 633674788}
   m_Father: {fileID: 1858949006}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1523924621
 MonoBehaviour:
@@ -9095,11 +9048,10 @@ Transform:
   - {fileID: 1006061524}
   - {fileID: 807154443}
   - {fileID: 2044118378}
-  - {fileID: 380334758}
   - {fileID: 1523924620}
+  - {fileID: 380334758}
   - {fileID: 421207497}
   - {fileID: 716492723}
-  - {fileID: 514833956}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
