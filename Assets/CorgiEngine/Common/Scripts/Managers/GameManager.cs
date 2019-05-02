@@ -143,9 +143,15 @@ namespace MoreMountains.CorgiEngine
 		public int CurrentLives = 0;
 		/// the name of the scene to redirect to when all lives are lost
 		public string GameOverScene;
+        /// 进行游戏中加载游戏场景数组
+        public string[] NextGameScene;
+        /// 记录加载游戏场景数组的目前的位置
+        protected int NextGameSceneFlag=0;
+        /// 游戏结算界面
+        public string GameEndScene;
 
-		/// the current number of game points
-		public int Points { get; private set; }
+        /// the current number of game points
+        public int Points { get; private set; }
 		/// true if the game is currently paused
 		public bool Paused { get; set; } 
 		// true if we've stored a map position at least once
@@ -158,6 +164,7 @@ namespace MoreMountains.CorgiEngine
 		public List<PointsOfEntryStorage> PointsOfEntry { get; set; }
         //记录玩家分数数组
         public int[] PlayersScore { get; protected set; } = new int[4] { 0, 0, 0, 0 };
+        
         protected bool _inventoryOpen = false;
 		protected bool _pauseMenuOpen = false;
 		protected InventoryInputManager _inventoryInputManager;
@@ -493,6 +500,16 @@ namespace MoreMountains.CorgiEngine
         {
             PlayersScore[playerID]++;
             Debug.Log(PlayersScore[0]);
+        }
+        public string GetNextSceneName()
+        {
+            if (NextGameSceneFlag < NextGameScene.Length)
+            {
+                return NextGameScene[NextGameSceneFlag++];
+            }
+            else
+                return GameEndScene;
+                
         }
     }
 }
